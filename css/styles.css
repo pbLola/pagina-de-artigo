@@ -2,7 +2,7 @@
   --bg: #fafafa;
   --card: #ffffff;
   --text: #111827;
-  --mutted: #6b7280;
+  --muted: #6b7280;
   --accent: #0ea5a4;
   --container: 1000px;
   --gap: 32px;
@@ -12,7 +12,7 @@
 }
 html,
 body {
-  height: 100px;
+  height: 100%;
 }
 body {
   margin: 0;
@@ -46,19 +46,19 @@ header .brand a {
   color: var(--text);
   font-size: 1.125rem;
 }
-nav .main-nav ul {
+nav.main-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   gap: 18px;
 }
-nav .main-nav a {
+nav.main-nav a {
   text-decoration: none;
-  color: var(--mutted);
+  color: var(--muted);
   font-weight: 500;
 }
-nav .main-nav a:hover {
+nav.main-nav a:hover {
   color: var(--accent);
 }
 
@@ -76,7 +76,7 @@ section.hero .hero-grid {
   margin: 0;
 }
 .hero-text .lead {
-  color: var(--mut);
+  color: var(--muted);
   margin-top: 8px;
 }
 .hero-avatar img {
@@ -105,7 +105,7 @@ article.card {
   margin: 0;
 }
 .card-header .meta {
-  color: var(--mutted);
+  color: var(--muted);
   font-size: 0.9rem;
 }
 .card-media img {
@@ -124,7 +124,7 @@ article.card {
   font-weight: 600;
 }
 .card-footer .tags {
-  color: var(--card);
+  color: var(--muted);
   font-size: 0.9rem;
 }
 /* sidebar */
@@ -143,7 +143,7 @@ footer.site-footer {
 }
 footer.site-footer p {
   margin: 0;
-  color: var(--mutted);
+  color: var(--muted);
 }
 
 /* responsividade */
