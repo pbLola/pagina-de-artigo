@@ -13,6 +13,12 @@ Basta abrir `index.html` no navegador.
 - `styles/styles.css` — estilos
 - `assets/images` — imagens substitutas
 
+## PDFs
+
+Todos os PDFs relacionados a este projeto estão na pasta `docs/`:
+
+- [Minha Primeira Página Pessoal (Fundamentos)](docs/guia-projetoP1N2.pdf)
+
 ## Commits sugeridos
 
 - feat: estrutura inicial do HTML com header e main
