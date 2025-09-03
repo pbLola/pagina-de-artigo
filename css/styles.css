@@ -83,3 +83,47 @@ section.hero .hero-grid {
   border-radius: 50%;
   display: block;
 }
+
+/* layout principal */
+main.layout-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--gap);
+  align-items: start;
+  padding-bottom: 48px;
+}
+
+/* artigo */
+article.card {
+  background: var(--card);
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+.card-header h3 {
+  margin: 0;
+}
+.card-header .meta {
+  color: var(--mutted);
+  font-size: 0.9rem;
+}
+.card-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+.card-body p {
+  margin: 12px 0;
+}
+.read-more {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+}
+.card-footer .tags {
+  color: var(--card);
+  font-size: 0.9rem;
+}
