@@ -61,3 +61,25 @@ nav .main-nav a {
 nav .main-nav a:hover {
   color: var(--accent);
 }
+
+section.hero {
+  padding: 28px 0;
+}
+section.hero .hero-grid {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.hero-text h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  margin: 0;
+}
+.hero-text .lead {
+  color: var(--mut);
+  margin-top: 8px;
+}
+.hero-avatar img {
+  border-radius: 50%;
+  display: block;
+}
