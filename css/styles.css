@@ -127,3 +127,10 @@ article.card {
   color: var(--card);
   font-size: 0.9rem;
 }
+/* sidebar */
+aside.sidebar section {
+  background: var(--card);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
